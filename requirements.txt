@@ -1,0 +1,9 @@
+-e .
+aws_codepipeline_actions
+aws_codepipeline
+aws_codebuild
+aws_ecr
+aws_ecs_patterns
+aws_ecs
+aws_iam
+aws_ec2
