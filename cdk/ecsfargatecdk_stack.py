@@ -173,7 +173,7 @@ class EcsfargatecdkStack(cdk.Stack):
             action_name= 'GitHub_Source',
             owner= 'samuelhailemariam',
             repo= 'aws-ecs-fargate-cicd-cdk',
-            branch= 'main',
+            branch= 'master',
             oauth_token= cdk.SecretValue.secrets_manager("/my/github/token"),
             output= sourceOutput
         )
