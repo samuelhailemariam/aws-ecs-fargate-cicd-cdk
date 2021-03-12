@@ -20,6 +20,14 @@ setuptools.setup(
 
     install_requires=[
         "aws-cdk.core==1.92.0",
+        "aws-cdk.aws_codepipeline_actions",
+        "aws-cdk.aws_codepipeline",
+        "aws-cdk.aws_codebuild",
+        "aws-cdk.aws_ecr",
+        "aws-cdk.aws_ecs_patterns",
+        "aws-cdk.aws_ecs",
+        "aws-cdk.aws_iam",
+        "aws-cdk.aws_ec2"
     ],
 
     python_requires=">=3.6",
