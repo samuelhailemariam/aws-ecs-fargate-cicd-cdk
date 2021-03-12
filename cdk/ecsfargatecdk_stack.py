@@ -154,12 +154,12 @@ class EcsfargatecdkStack(cdk.Stack):
                             "printf '[{\"name\":\"flask-app\",\"imageUri\":\"%s\"}]' $ECR_REPO_URI:$TAG > imagedefinitions.json",
                             "pwd; ls -al; cat imagedefinitions.json" 
                         ]
-                    },
+                    }
+                },
                 'artifacts': {
                     'files': [
                             'imagedefinitions.json'   
-                        ]   
-                    }
+                    ]   
                 }
             })
         )
