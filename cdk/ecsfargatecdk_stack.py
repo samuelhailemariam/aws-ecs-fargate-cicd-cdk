@@ -155,10 +155,10 @@ class EcsfargatecdkStack(cdk.Stack):
                             "pwd; ls -al; cat imagedefinitions.json" 
                         ]
                     },
-                    'artifacts': {
-                        'files': [
-                             'imagedefinitions.json'   
-                        ]
+                'artifacts': {
+                    'files': [
+                            'imagedefinitions.json'   
+                        ]   
                     }
                 }
             })
